@@ -22,7 +22,7 @@ namespace CSharpTest
 
             while (dayCount != 0)
             {
-                for (int i = 0; i < weekEnds.Length-1; i++)
+                for (int i = 0; i < weekEnds.Length; i++)
                 {
                         if (startDate.AddDays(1) != weekEnds[i].StartDate)
                         {
